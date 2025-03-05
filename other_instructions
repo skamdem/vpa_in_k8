@@ -1,0 +1,10 @@
+Clone the VPA Repository and Set Up the Vertical Pod Autoscaler
+1. Clone the repository
+  git clone https://github.com/kubernetes/autoscaler.git
+
+2. Navigate to the Vertical Pod Autoscaler directory
+  cd autoscaler/vertical-pod-autoscaler
+3. Run the setup script to deploy the Vertical Pod Autoscaler
+   ./hack/vpa-up.sh
+
+By following these steps, the Vertical Pod Autoscaler will be installed and ready to manage pod resources in your Kubernetes cluster
